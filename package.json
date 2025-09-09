@@ -1,0 +1,26 @@
+{
+  "name": "qa-playground",
+  "version": "1.0.0",
+  "description": "Playground para aprendizado e teste.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlbborges/qa-playground.git"
+  },
+  "author": "Max Leandro Barbosa Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxlbborges/qa-playground/issues"
+  },
+  "homepage": "https://github.com/maxlbborges/qa-playground#readme",
+  "devDependencies": {
+    "cypress": "^15.1.0",
+    "cypress-dotenv": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
