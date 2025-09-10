@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/maxlbborges/qa-playground#readme",
   "devDependencies": {
+    "@types/cypress": "^0.1.6",
+    "@types/mocha": "^10.0.10",
     "cypress": "^15.1.0",
-    "cypress-dotenv": "^3.0.1"
+    "cypress-dotenv": "^3.0.1",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "dotenv": "^17.2.2"
